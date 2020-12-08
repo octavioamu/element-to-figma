@@ -1,6 +1,4 @@
 <p align="center">
-  <img src="https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png">
-
   ![Element to Figma](https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png "Element to Figma")
 </p>
 
