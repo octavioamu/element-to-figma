@@ -1,0 +1,25 @@
+{
+  "name": "element-to-figma",
+  "description": "copy page elements to figma",
+  "version": "1",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon128.png",
+    "128": "icons/icon256.png"
+  },
+  "browser_action": {
+    "default_title": "element-to-figma",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+  "permissions": ["activeTab", "downloads"]
+}
