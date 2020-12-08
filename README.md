@@ -1,5 +1,5 @@
 <p align="center">
-  ![Element to Figma](https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png "Element to Figma")
+  <img alt="Element to Figma" src="https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png">
 </p>
 
 # Element to Figma (beta)
