@@ -1,13 +1,7 @@
 <p align="center">
-  <img alt="Element to Figma" src="https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png">
-  HTML <-> Figma
-  
+  <img alt="Element to Figma" src="https://github.com/octavioamu/element-to-figma/blob/main/src/popup/logo.png">  
 </p>
-<p align="center">
 
-![Element to Figma](src/popup/logo.png) 
-
-</p>
 # Element to Figma - Browser extension (beta)
 
 
