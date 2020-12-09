@@ -7,6 +7,10 @@
 
 Extension to select the page UI elements and download them to later import it to Figma, based on the great job from https://github.com/BuilderIO/html-figma this browser extension allow you to **download the selected pieces on the page instead of all the content** so you can later import those to Figma.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=BdD5v6qClBs
+" target="_blank"><img src="http://img.youtube.com/vi/BdD5v6qClBs/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## Quick start
 * To be able to import the elements into figma you need to install first [HTML <-> Figma](https://www.figma.com/community/plugin/747985167520967365) plugin.
 * Download the extension [Chrome store](www.google.com)
