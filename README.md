@@ -9,8 +9,8 @@ Extension to select the page UI elements and download them to later import it to
 
 <p align="center"> 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BdD5v6qClBs
-" target="_blank" align="center"><img src="http://img.youtube.com/vi/BdD5v6qClBs/0.jpg" 
-alt="Element to Figma video" width="500" height="375" border="10" /></a>
+" target="_blank" align="center"><img src="https://img.youtube.com/vi/BdD5v6qClBs/maxresdefault.jpg" 
+alt="Element to Figma video" width="560" height="315" border="10" /></a>
 </p>
 
 ## Quick start
