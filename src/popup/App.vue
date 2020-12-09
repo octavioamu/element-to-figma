@@ -10,7 +10,8 @@
 
     <div class="footer">
       <p>
-        <a href="">Issues</a>
+        <a href="https://github.com/octavioamu/element-to-figma">Repo</a> |
+        <a href="https://github.com/octavioamu/element-to-figma/issues">Report issues</a>
       </p>
     </div>
   </div>
@@ -37,7 +38,8 @@ export default {
       })
     },
     enableSelector() {
-    // this.loading = true;
+      this.enabled = !this.enabled;
+      // document.location.reload
       chrome.runtime.sendMessage({ inject: true }, response => {
         window.close();
 
@@ -59,11 +61,12 @@ export default {
   display: block;
 }
 .content {
-  min-width: 400px;
+  min-width: 360px;
   padding: 1em;
   text-align: center;
 }
 p {
+  color: #585858;
   font-size: 14px;
   line-height: 1.5em;
 }
@@ -72,10 +75,10 @@ p {
 }
 .btn {
   background-color: #fff;
-  padding: 1em 2em;
+  padding: .8em 2em;
   display: block;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 7px;
   text-transform: uppercase;
   color: #3c3c3c;
   border: 2px solid #3c3c3c;

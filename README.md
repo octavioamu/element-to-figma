@@ -5,7 +5,7 @@
 # Element to Figma - Browser extension (beta)
 
 
-Extension to select the page UI elements and download them to later import it to Figma, based on https://github.com/BuilderIO/html-figma this browser extension allow you to donwload the selected pieces on the layout instead of all the page.
+Extension to select the page UI elements and download them to later import it to Figma, based on the great job from https://github.com/BuilderIO/html-figma this browser extension allow you to **download the selected pieces on the page instead of all the content** so you can later import those to Figma.
 
 ## Quick start
 * To be able to import the elements into figma you need to install first [HTML <-> Figma](https://www.figma.com/community/plugin/747985167520967365) plugin.
@@ -30,18 +30,6 @@ Extension to select the page UI elements and download them to later import it to
 
 
 ## HTML <-> Figma
-In Figma open HTML <-> Figma plugin and click **upload here** and select the json files you downloaded. 
+In Figma open [HTML <-> Figma](https://www.figma.com/community/plugin/747985167520967365) plugin and click **upload here** then select the json file you want to import. 
 
 ![html to figma](docs/html-figma-example.png)
-
-
-<style>
-img
-{
-    display:block; 
-    float:none; 
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-}
-</style> 
