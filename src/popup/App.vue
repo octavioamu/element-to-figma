@@ -1,17 +1,31 @@
 <template>
   <div class="content">
-    <img src="/images/popup/logo.png" alt="Element to Figma" class="logo" width="300">
-    <p>Click "ENABLE SELECTOR" and select the elements on the page you want to download.</p>
+    <img
+      src="/images/popup/logo.png"
+      alt="Element to Figma"
+      class="logo"
+      width="300"
+    />
+    <p>
+      Click "ENABLE SELECTOR" and select the elements on the page you want to
+      download.
+    </p>
     <button class="btn" @click="enableSelector()">Enable Selector</button>
     <p>
-      Figma Plugin <a target="_blank" href="https://www.figma.com/community/plugin/747985167520967365/">HTML &lt;-&gt; Figma</a>
-
+      Figma Plugin
+      <a
+        target="_blank"
+        href="https://www.figma.com/community/plugin/747985167520967365/"
+        >HTML &lt;-&gt; Figma</a
+      >
     </p>
 
     <div class="footer">
       <p>
         <a href="https://github.com/octavioamu/element-to-figma">Repo</a> |
-        <a href="https://github.com/octavioamu/element-to-figma/issues">Report issues</a>
+        <a href="https://github.com/octavioamu/element-to-figma/issues"
+          >Report issues</a
+        >
       </p>
     </div>
   </div>
@@ -24,18 +38,19 @@ export default {
   },
   methods: {
     check() {
-      console.log( 'test',chrome)
+      console.log("test", chrome);
       // alert('asas')
       chrome.tabs.query({ currentWindow: true, active: true }, tabs => {
         const activeTab = tabs[0];
         if (activeTab) {
           if (activeTab.url) {
             if (activeTab.url.startsWith("https://chrome.google.com")) {
-              this.error = "You can't run this extension in the Chrome web store itself, please try another URL";
+              this.error =
+                "You can't run this extension in the Chrome web store itself, please try another URL";
             }
           }
         }
-      })
+      });
     },
     enableSelector() {
       this.enabled = !this.enabled;
@@ -47,10 +62,9 @@ export default {
         // this.done = true;
       });
     }
-    
   },
   mounted() {
-    this.check()
+    this.check();
   }
 };
 </script>
@@ -75,7 +89,7 @@ p {
 }
 .btn {
   background-color: #fff;
-  padding: .8em 2em;
+  padding: 0.8em 2em;
   display: block;
   margin: auto;
   border-radius: 7px;
@@ -89,6 +103,4 @@ p {
   background-color: #3c3c3c;
   color: #fff;
 }
-
-
 </style>
