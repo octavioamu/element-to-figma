@@ -1,6 +1,5 @@
 import Vue from "vue";
 import App from "./App";
-import logo from "./logo.png";
 
 global.browser = require("webextension-polyfill");
 Vue.prototype.$browser = global.browser;

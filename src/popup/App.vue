@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     check() {
-      console.log("test", chrome);
+      console.log("testes", chrome);
       // alert('asas')
       chrome.tabs.query({ currentWindow: true, active: true }, tabs => {
         const activeTab = tabs[0];

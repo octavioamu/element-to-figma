@@ -31,13 +31,10 @@ if (!document.getElementById("etf-box")) {
     // e.stopPropagation();
     e.preventDefault();
 
-    let element;
-
     if (!e.target.id) {
       e.target.id = "etf-element";
     }
-
-    element = e.target.id;
+    const element = e.target.id;
 
     const layers = await htmlToFigma(
       `#${element}`,
@@ -48,13 +45,10 @@ if (!document.getElementById("etf-box")) {
     if (e.target.id === "etf-element") {
       e.target.removeAttribute("id");
     }
-    var json = JSON.stringify({ layers });
-    var blob = new Blob([json], {
-      type: "application/json"
-    });
+    const json = JSON.stringify({ layers });
+    const data = json;
 
-    let url = URL.createObjectURL(blob);
-    chrome.runtime.sendMessage({ download: url }, response => {
+    chrome.runtime.sendMessage({ download: data }, response => {
       console.log(response);
       // this.loading = false;
       // this.done = true;

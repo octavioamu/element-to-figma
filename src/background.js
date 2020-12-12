@@ -27,8 +27,16 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 
   if (request.download) {
+    var blob = new Blob([request.download], {
+      type: "application/json"
+    });
+    const file = URL.createObjectURL(blob);
+
     chrome.downloads.download({
-      url: request.download
+      url: file,
+      conflictAction: "uniquify",
+      filename: "download-from-bg.json",
+      saveAs: true
     });
   }
 
