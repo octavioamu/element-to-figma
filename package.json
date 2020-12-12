@@ -1,6 +1,6 @@
 {
   "name": "element-to-figma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "copy page elements to figma",
   "author": "octavioamu <octavioamuchastegui@gmail.com>",
   "license": "MIT",
