@@ -15,7 +15,8 @@ alt="Element to Figma video" width="560" height="315" border="10" /></a>
 
 ## Quick start
 * To be able to import the elements into figma you need to install first [HTML <-> Figma](https://www.figma.com/community/plugin/747985167520967365) plugin.
-* Download the extension [Chrome store](https://chrome.google.com/webstore/detail/element-to-figma/apadkficecnpmnjmedbpdbkikcofdpim)
+* Download the extension [Chrome store](https://chrome.google.com/webstore/detail/element-to-figma/apadkficecnpmnjmedbpdbkikcofdpim) or [Firefox addons](https://addons.mozilla.org/pt-BR/firefox/addon/element-to-figma/)
+
 
 ## Usage
 * Go to the page you want to capture elements
@@ -23,7 +24,7 @@ alt="Element to Figma video" width="560" height="315" border="10" /></a>
 * Click on the elements you wish to copy to figma
 
 ## Manual install
-* Download zip in `dist-zip` and manually load on your chrome extension tab. (developer mode need to be enabled) 
+* Download zip in `dist-zip` and manually load on your chrome extension tab or Firefox addons. (developer mode need to be enabled) 
 
 ## Run locally 
 `yarn install`
