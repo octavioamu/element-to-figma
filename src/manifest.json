@@ -1,7 +1,7 @@
 {
-  "name": "element-to-figma",
+  "name": "Element to Figma",
   "description": "Copy page elements to figma",
-  "version": "1",
+  "version": "1.0.1",
   "manifest_version": 2,
   "icons": {
     "48": "icons/icon128.png",
